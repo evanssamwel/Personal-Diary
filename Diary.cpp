@@ -3,6 +3,8 @@
 #include<iostream>
 #include<conio.h>
 #include<string.h>
+
+
 using namespace std;
 int password();
 void addrecord();
@@ -24,7 +26,7 @@ int login(){
    string pass ="";
    char ch;
    cout << "\n\n\n\n\n\t\t\t\t     Personal Diary Management";
-   cout << "\n\n\n\n\n\t\t\t\t\tEnter Password:";
+   cout << "\n\n\n\n\n\t\t\t\t\t   Enter Password:";
    ch = _getch();
    while(ch != 13){//character 13 is enter
       pass.push_back(ch);
@@ -49,7 +51,7 @@ int main()
 	login();
     int ch;
     cout<<"\n\n\t***********************************\n";
-    cout<<"\t  *DAILY DIARY MANAGEMENT SYSTEM*\n";
+    cout<<"\t *DAILY DIARY MANAGEMENT SYSTEM*\n";
     cout<<"\t***********************************";
     while(1)
     {
